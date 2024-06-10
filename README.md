@@ -6,6 +6,8 @@ This repository contains Terraform configurations for retrieving Cisco Catalyst 
 
 The Terraform configurations in this project enable network administrators to automate the provisioning and configuration of Cisco Catalyst switches. By integrating with the Meraki Dashboard through the Meraki provider and configuring the switches using the IOS XE provider, this project streamlines network management and ensures consistent infrastructure deployment.
 
+![Get Catalyst Switches from Meraki Dashboard with Terraform](img/MerakiTerraformDemo.gif)
+
 ## Installation
 
 To install and configure the project:
