@@ -1,5 +1,7 @@
 # Terraform Automation for Cisco Catalyst Switches via Meraki and IOS XE Providers
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/pamosima/meraki-terraform-iosxe)
+
 This repository contains Terraform configurations for retrieving Cisco Catalyst switches from the Meraki Dashboard using the Meraki provider and for managing these devices with the IOS XE provider. The project streamlines the process of network provisioning and configuration, harnessing the power of Infrastructure as Code (IaC) to automate these tasks through Terraform.
 
 ## Use Case Description
