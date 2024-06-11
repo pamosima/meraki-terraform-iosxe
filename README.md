@@ -24,13 +24,7 @@ To install and configure the project:
    cd meraki-terraform-iosxe
    ```
 
-3. Initialize Terraform to download the necessary providers:
-
-   ```
-   terraform init
-   ```
-
-4. Create a bash script named `setup_env.sh` with the following content to set up the environment variables for the Meraki API key and other Terraform variables:
+3. Create a bash script named `setup_env.sh` with the following content to set up the environment variables for the Meraki API key and other Terraform variables:
 
    ```bash
    #!/bin/bash
@@ -56,16 +50,16 @@ To install and configure the project:
    source ./setup_env.sh
    ```
 
-7. Plan the Terraform execution to review the changes that will be applied:
+7. Navigate to the infra directory:
 
    ```
-   terraform plan
+   cd infra
    ```
 
-8. Apply the Terraform configurations to your network devices:
+8. Initialize Terraform to download the necessary providers:
 
    ```
-   terraform apply
+   terraform init
    ```
 
 ## Usage
